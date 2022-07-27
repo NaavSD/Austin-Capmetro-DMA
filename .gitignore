@@ -37,6 +37,7 @@
 ehthumbs.db
 Thumbs.db
 .backups
+.ipynb_checkpoints
 .git
 *.bak
 
