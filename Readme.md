@@ -41,6 +41,7 @@ Disruption indices were created for the selected routes using a series of algori
 Malucelli and Tresoldi's pairwise model was selected from the available models presented in their paper, described below:
 
 Lets consider the gap $x(q)$ in the planned $(v_e (q))$ and observed $(v_o (q))$ headways:
+
 $$ x(q) = v_o (q) - v_e (q) $$
 
 A negative value is an early pass and a positive value is a delay.
