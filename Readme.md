@@ -46,6 +46,7 @@ $$ x(q) = v_o (q) - v_e (q) $$
 A negative value is an early pass and a positive value is a delay.
 
 Malucelli and Tresoldi then define the function of $f(x(q))$ of the gap as:
+
 $$
 f(x(q))=
 \begin{cases}
@@ -59,6 +60,7 @@ $$
 Where $\theta_1$, $\theta_2$, $\theta_3$ and $\alpha, \beta, \gamma, \delta$ are suitable parameters. The function is 0 if the pass is regular and is not 0 if the pass is irregular. We can ignore contributions of earliness on the index by setting $\alpha = 0$. Likewise, if we set all coefficients to 0 and $\delta = 1$ we are left with the simple index the Azienda Trasporti Milanesi used at the writing of their paper. Values where $x(q) \geq \theta_3$ are intended to penalize large gaps more than the equivlent sum of small gaps.
 
 Thus the index of regularity based on Malucelli and Tresoldi's piece-wise function is:
+
 $$
 I(PW)= \sum_{q \in P} f(x(q))
 $$
